@@ -1,0 +1,434 @@
+body {
+    
+    margin: auto;
+}
+.head {
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+.title h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Cookie";
+    z-index: 1;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+}
+.links {
+    
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Cookie";
+    z-index: 1;
+    opacity: 0.7;
+    width: 100%;
+    text-align: left;
+}
+.links a {
+        text-decoration: none;
+        color: black;
+        opacity: 0.7;
+        font-size: 2rem;
+
+    }
+
+.naviLinks ul li {
+    
+    display: inline !important;
+    padding-right:5px;
+   
+}
+.registracija{
+    text-align:right;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 9rem;
+    font-family: "Cookie";
+    z-index: 1;
+    width: 100%;
+}
+@media(min-aspect-ratio:16/9){
+    .video-container video{
+        width:100%;
+        height:auto;
+    }
+}
+@media(max-aspect-ratio:16/9) {
+    .video-container video {
+        width: auto;
+        height: 100%;
+    }
+}
+.left {
+    margin-top: 15px !important;
+    padding-top: 15px;
+    z-index: 1;
+}
+.right {
+    margin-top: 15px !important;
+    padding-top: 15px;
+    z-index: 1;
+
+}
+.forma {
+    margin-top:20px;
+    text-align: center !important;
+    font-size: 1rem;
+    z-index: 1;
+    width: 100%;
+}
+.forma input {
+        margin-top:10px;
+}
+tbody, td, tfoot, th, thead, tr {
+        padding: 5px !important;
+    }
+
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    text-align:center;
+   
+}
+.slikaInfo {
+    text-align: center !important;
+    height: 400px !important;
+}
+.img-fluid {
+    z-index: 1;
+    opacity: 0.9;
+    width: 80% !important;
+    
+}
+.info {
+    z-index: 1;
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.info p{
+    font-size:1rem;
+    float:left;
+    padding:10px;
+}
+.sendEmail {
+    z-index: 1;
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 200px) {
+    .sendEmail {
+        z-index: 1;
+        opacity: 0.9;
+        width: 100%;
+        height: auto;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    
+    .sendEmail {
+        z-index: 1;
+        opacity: 0.9;
+        width: 100%;
+        height: auto;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .sendEmail {
+        z-index: 1;
+        opacity: 0.9;
+        width: 100%;
+        height: auto;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+.sendEmail table {
+        display: table;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+}
+.kontaktimg img {
+    text-align: center;
+    width: 100% !important;
+}
+h3 {
+    z-index: 1;
+    opacity: 0.9;
+    padding:7px;
+}
+.footer {
+    z-index: 1;
+   
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+.footerLinks{
+    text-decoration:none;
+    color:black;
+}
+#footer p, h4 {
+    opacity: 0.9;
+    z-index: 1;
+    text-align: center;
+}
+
+#slider {
+    max-width: 100%;
+    height: 300px;
+    opacity:0.9;
+}
+#slider img {
+        padding-top:15px;
+        opacity: 0.9;
+        z-index: 1;
+
+}
+.wheder {
+    text-align: center;
+    
+    z-index: 1;
+}
+.wheder a{
+    border: 3px solid gray;
+    z-index: 1;
+}
+.instagram svg {
+    color: purple;
+}
+.search {
+    text-align:center;
+    opacity: 0.9;
+    z-index: 1;
+}
+#search{
+    min-width:20%;
+}
+.dodajApartman {
+    text-align: center;
+    opacity: 0.9;
+    z-index: 1;
+}
+.dodajApartman a{
+    color:black;
+    text-align:center;
+}
+.upisApartmana input {
+    margin-top: 10px;
+}
+.aparmani {
+    z-index: 1;
+    opacity: 0.9;
+}
+.uredi {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    text-align: center;
+    margin-bottom:10px;
+}
+.uredi img {
+        width:100%;
+        height:400px;
+       
+    }
+.update {
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.aTag a {
+    text-decoration: none;
+    color: black;
+    bottom: 0;
+    left: 0;
+  
+}
+
+.apartman {
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.procitajVise {
+    background-color: #999999;
+    color: #fff;
+    height: 35px;
+    width: 50%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.procitajVise:hover {
+        background-color: #222222;
+}
+kontaktMail a{
+   
+    z-index: 1;
+    
+}
+.input {
+    width: 100%;
+    text-align:center;
+}
+.galery {
+    z-index: 1;
+    margin-top:10px;
+}
+    .galery img {
+        width: 100%;
+        height: 250px;
+    }
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+}
+.oApartmanu{
+    z-index:1;
+}
+.korisnici{
+    opacity:0.9;
+    z-index:1;
+}
+.rezervacija {
+    opacity: 0.9;
+    z-index: 1;
+}
+.today {
+    background-color: beige !important;
+}
+.komentar p{
+    z-index: 1;
+}
+.komentar a {
+    z-index: 1;
+    text-decoration: none;
+    color:black;
+}
+.komentar{
+    z-index:1;
+}
+.prosecnaOcena{
+    background-color:blue;
+}
+
+
+
+.rateYo{
+    margin:auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #455A64;
+    height: 100 !important
+}
+
+.container-fluid {
+    overflow: hidden;
+    margin-top: 250px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+.cistac{
+    clear:both;
+}
+.slike{
+    float:left;
+}
+.infoReklama ul{
+    text-align: left;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.zaboravio a {
+  color: inherit;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.zaboravio a:hover {
+  text-decoration-color: rgba(255, 255, 255, 1);
+}

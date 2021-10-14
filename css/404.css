@@ -1,0 +1,10 @@
+﻿body {
+  
+  text-align:center;
+  background-image:url("img/fuckoff.png");
+}
+h1 {
+    margin-top:10%;
+    font-size:6rem;
+    color:red;
+}
